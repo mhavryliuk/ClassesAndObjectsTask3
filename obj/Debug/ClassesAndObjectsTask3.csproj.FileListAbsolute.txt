@@ -1,0 +1,7 @@
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\bin\Debug\ClassesAndObjectsTask3.exe.config
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\bin\Debug\ClassesAndObjectsTask3.exe
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\bin\Debug\ClassesAndObjectsTask3.pdb
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\obj\Debug\ClassesAndObjectsTask3.csprojResolveAssemblyReference.cache
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\obj\Debug\ClassesAndObjectsTask3.csproj.CoreCompileInputs.cache
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\obj\Debug\ClassesAndObjectsTask3.exe
+D:\IDE\VS2017\Projects\OOPBasics\ClassesAndObjectsTask3\obj\Debug\ClassesAndObjectsTask3.pdb

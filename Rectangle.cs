@@ -43,7 +43,7 @@ namespace ClassesAndObjectsTask3
         }
 
         // Метод, позволяющий вывести длины сторон прямоугольника на экран.
-        public override string ToString() => $"Длина сторон прямоугольника: a = {a} см, b={b} см";
+        public override string ToString() => $"Длина сторон прямоугольника: a = {a} см, b= {b} см";
 
         // Метод, позволяющий рассчитать периметр прямоугольника.
         public string PerimeterCalculation()
@@ -106,7 +106,7 @@ namespace ClassesAndObjectsTask3
         public static Rectangle operator ++(Rectangle side) => new Rectangle(++side.a, ++side.b);
 
         // Перегрузка операции --: одновременно уменьшает значение полей a и b.
-        public static Rectangle operator --(Rectangle side) => new Rectangle(++side.a, ++side.b);
+        public static Rectangle operator --(Rectangle side) => new Rectangle(--side.a, --side.b);
 
         // Перегрузка констант true и false: обращение к экземпляру класса дает значение true, 
         // если прямоугольник с заданными длинами сторон является квадратом, иначе false.
