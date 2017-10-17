@@ -73,7 +73,7 @@ namespace ClassesAndObjectsTask3
         }
 
         // Свойство, позволяющее установить, является ли данный прямоугольник квадратом (доступное только для чтения).
-        public bool IsRectangle
+        public bool IsSquare
         {
             get
             {
@@ -97,7 +97,7 @@ namespace ClassesAndObjectsTask3
                     case 1:
                         return $"Индексу {i} соответствует сторона b, равная {b} см";
                     default:
-                        return $"Индексу {i} является недействительным";
+                        return $"Индекс {i} является недействительным";
                 }
             }
         }
@@ -110,8 +110,8 @@ namespace ClassesAndObjectsTask3
 
         // Перегрузка констант true и false: обращение к экземпляру класса дает значение true, 
         // если прямоугольник с заданными длинами сторон является квадратом, иначе false.
-        public static bool operator true(Rectangle side) => side.IsRectangle;
-        public static bool operator false(Rectangle side) => side.IsRectangle;
+        public static bool operator true(Rectangle side) => side.IsSquare;
+        public static bool operator false(Rectangle side) => side.IsSquare;
 
         // Перегрузка операции *: одновременно домножает поля a и b на скаляр.
         public static Rectangle operator *(Rectangle side, int scalar) => new Rectangle(side.a *= scalar, side.b *= scalar);
